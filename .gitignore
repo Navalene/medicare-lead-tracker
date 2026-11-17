@@ -1,0 +1,14 @@
+# Real client data must never be committed
+medicare_leads.csv
+*_real*.csv
+*.xlsx
+
+# Secrets
+.env
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
